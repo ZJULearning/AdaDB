@@ -9,8 +9,8 @@
 ## Run Demos on CIFAR-100 
 
 ```
-	cd AdaDB
-	python cifar.py --model=resnet18 --optim=adadb --lr=1e-3 --final_lr=0.1 --gamma=1e-5
+cd AdaDB
+python cifar.py --model=resnet18 --optim=adadb --lr=1e-3 --final_lr=0.1 --gamma=1e-5
 ```
 
 
