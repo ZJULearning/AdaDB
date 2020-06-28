@@ -15,6 +15,7 @@ optimizer = optimizers.AdaDB(model.parameters(), lr=1e-3, final_lr=0.1)
 
 ## Run Demos on CIFAR-100 
 
+Train model ResNet-18 on CIFAR-100 dataset using optimizer AdaDB. 
 ```
 cd AdaDB
 python cifar.py --model=resnet18 --optim=adadb --lr=1e-3 --final_lr=0.1 --gamma=1e-5
